@@ -4,6 +4,7 @@ const io = require('socket.io')(7000,{
         origin:"*",
     }
 })
+const PORT = process.PORT || 7000;
 
 
 const user = {};
